@@ -11,8 +11,8 @@ public class Calculadora {
     }
 
     public Calculadora(int num1, int num2) {
-        this.num1 = n1;
-        this.num2 = n2;
+        this.n1 = num1;
+        this.n2 = num2;
     }
 
     public int sumar() {

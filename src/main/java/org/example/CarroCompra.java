@@ -1,21 +1,24 @@
 package org.example;
-
 public class CarroCompra {
 
-    private int[][] prodcutos = new int[2][5];
+    private int[][] productos = new int[2][5];
 
+    public static void main(String[] args) {
+        mostrarTotal();
+    }
     public CarroCompra() {
-        for (int = 0; i < 5; i++){
+        for (int i = 0; i < 5; i++){
             productos[0][i] = 1;
             productos[1][i] = 1000;
         }
     }
 
     private int calcularTotal() {
-        int total = 0; subtotal = 0;
+        int total = 0;
+        int subtotal = 0;
 
-        for (int = 0; i < 5; i++){
-            total += subTotal(prodcutos[0][i], productos[1][i]);
+        for (int i = 0; i < 5; i++){
+            total += subTotal(productos[0][i], productos[1][i]);
         }
         return total;
     }
