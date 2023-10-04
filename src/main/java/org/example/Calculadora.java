@@ -6,43 +6,28 @@ public class Calculadora {
     private int n2;
 
     public Calculadora() {
-        // TODO - implement Calculadora.Calculadora
-        throw new UnsupportedOperationException();
+        this.n1 = 0;
+        this.n2 = 0;
     }
 
-    /**
-     *
-     * @param num1
-     * @param num2
-     */
     public Calculadora(int num1, int num2) {
-        // TODO - implement Calculadora.Calculadora
-        throw new UnsupportedOperationException();
+        this.num1 = n1;
+        this.num2 = n2;
     }
 
     public int sumar() {
-        // TODO - implement Calculadora.sumar
-        throw new UnsupportedOperationException();
+        return this.n1 + this.n2;
     }
 
     public int multiplicar() {
-        // TODO - implement Calculadora.multiplicar
-        throw new UnsupportedOperationException();
+        return this.n1 * this.n2;
     }
 
-    /**
-     *
-     * @param n1
-     */
-    public void setN1(int n1) {
-        this.n1 = n1;
+    public void setN1(int num1) {
+        this.n1 = num1;
     }
 
-    /**
-     *
-     * @param n2
-     */
-    public void setN2(int n2) {
-        this.n2 = n2;
+    public void setN2(int num2) {
+        this.n2 = num2;
     }
 }
